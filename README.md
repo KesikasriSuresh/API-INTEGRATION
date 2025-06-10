@@ -9,13 +9,15 @@
 
 **Description**
 
-This project's objective was to create an interactive, responsive webpage that retrieves and presents data from a public API. I decided to use the OpenWeather API to incorporate real-time weather data for this task. Based on the user's input, the webpage dynamically loads the weather data and presents it in an understandable and aesthetically pleasing manner.
-I used contemporary HTML, CSS, and JavaScript techniques to guarantee responsiveness and a seamless user experience across devices. Canva was used to add visual elements to the layout and design.
+Description:
+This project involved developing a responsive webpage that fetches and displays real-time data from a public API. I selected the OpenWeather API to retrieve current weather information based on user input. The webpage dynamically loads and updates the weather data, providing a seamless and interactive user experience.
+The interface was built using HTML, CSS, and JavaScript, ensuring compatibility across different devices and screen sizes. To enhance the design, Canva was used for creating visually appealing UI components.
 
-*Utilised Resources:*
+*Resources Used:*
 
-GeeksforGeeks: A resource for basic knowledge and coding references
-OpenWeather is a public weather data API source.
-YouTube: For hands-on lessons and live demonstrations
-ChatGPT: For advice, feature requests, and code fixes
-Canva: For creating user interface elements and
+OpenWeather API
+GeeksforGeeks
+YouTube
+ChatGPT
+Canva
+
