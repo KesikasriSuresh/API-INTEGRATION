@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeatherMate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash">
+    <video class="splash-video" autoplay muted loop playsinline>
+      <source src="sun.mp4" type="video/mp4">
+    </video>
+    <h1 class="logo floating">WeatherMate</h1>
+    <div class="loading-bar">
+      <div class="loading-progress" id="loadingBar"></div>
+    </div>
+  </div>
+
+  <!-- Main App -->
+  <div class="container" id="main">
+    <h1 class="app-title">Weather Forecast</h1>
+    
+    <div class="search-section">
+      <button class="btn" onclick="getLocationWeather()">
+        <i class="fas fa-location-arrow"></i> My Location
+      </button>
+      
+      <div class="search-box">
+        <input type="text" id="locationInput" placeholder="Search for a city..." />
+        <button id="searchButton">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+    
+    <div class="weather-card" id="weatherCard">
+      <h2 class="location" id="location">-</h2>
+      <p class="date" id="date">-</p>
+      
+      <div class="weather-main">
+        <img class="weather-icon" id="weatherIcon" src="" alt="Weather icon">
+        <div class="temperature" id="temperature">-</div>
+        <p class="description" id="description">-</p>
+      </div>
+      
+      <div class="weather-details">
+        <div class="detail-item">
+          <i class="fas fa-tint"></i>
+          <span class="detail-label">Humidity</span>
+          <span class="detail-value" id="humidity">-</span>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-wind"></i>
+          <span class="detail-label">Wind Speed</span>
+          <span class="detail-value" id="wind">-</span>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-cloud"></i>
+          <span class="detail-label">Clouds</span>
+          <span class="detail-value" id="clouds">-</span>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-temperature-low"></i>
+          <span class="detail-label">Feels Like</span>
+          <span class="detail-value" id="feelsLike">-</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
