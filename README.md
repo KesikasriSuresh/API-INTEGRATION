@@ -21,3 +21,6 @@ YouTube
 ChatGPT
 Canva
 
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/2350d74c-8974-49db-b15b-20834e04b68e" />
+<img width="1436" alt="Image" src="https://github.com/user-attachments/assets/1124a59e-a8be-4aad-865b-d0518b11e0ed" />
+<img width="1439" alt="Image" src="https://github.com/user-attachments/assets/45b9ad34-a523-4efc-85bc-9ce70a52645a" /><img width="1440" alt="Image" src="https://github.com/user-attachments/assets/690abdca-f105-45f7-a026-c3921a5b0f4a" />
